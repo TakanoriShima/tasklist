@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="prose ml-4">
-        <h2>メッセージ 一覧</h2>
+        <h2>タスク 一覧</h2>
     </div>
 
     @if (isset($tasks))
@@ -26,6 +26,6 @@
     @endif
     
     {{-- メッセージ作成ページへのリンク --}}
-    <a class="btn btn-primary" href="{{ route('tasks.create') }}">新規メッセージの投稿</a>
+    <a class="btn btn-primary" href="{{ route('tasks.create') }}">新規タスクの投稿</a>
     
 @endsection
